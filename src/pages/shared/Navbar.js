@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <header>
-      <nav className="flex py-4 shadow-md items-center">
+      <nav className="flex py-4 shadow-md items-center  mx-auto">
         <div className="logo mr-6 uppercase">
           <Link className="text-2xl" to="/">
             tools-MF
