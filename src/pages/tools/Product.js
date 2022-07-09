@@ -16,7 +16,9 @@ const Product = ({ product }) => {
             <p class="text-sm">Min qty:{min_quantity}</p>
             <p class="text-sm">id: {id}</p>
             <p class="text-sm">Price:{price}</p>
-            <Button variant="outlined"> PURCHASE</Button>
+            <div className="my-2">
+              <Button variant="outlined"> PURCHASE</Button>
+            </div>
           </div>
         </div>
       </div>
