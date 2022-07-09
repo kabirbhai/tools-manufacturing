@@ -4,7 +4,7 @@ import Button from "@mui/material/Button";
 
 const Banner = () => {
   return (
-    <section className="flex justify-center items-center">
+    <section className="flex justify-center items-center ">
       <div className="flex-1">
         <h1 className="text-3xl text-orange-500 font-bold">
           Start your business here with us

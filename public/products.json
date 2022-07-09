@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "HAMMER",
+    "price": 235,
+    "min_quantity": 289,
+    "available_quantity": 1009,
+    "desc": "This is my second mat and to be honest, I don’t really need a new one",
+    "img": "https://i.ibb.co/pbtzfRf/hammer.jpg"
+  },
+  {
+    "id": 2,
+    "name": "HAMMER",
+    "price": 235,
+    "min_quantity": 289,
+    "available_quantity": 1009,
+    "desc": "This is my second mat and to be honest, I don’t really need a new one",
+    "img": "https://i.ibb.co/pbtzfRf/hammer.jpg"
+  },
+  {
+    "id": 3,
+    "name": "HAMMER",
+    "price": 235,
+    "min_quantity": 289,
+    "available_quantity": 1009,
+    "desc": "This is my second mat and to be honest, I don’t really need a new one",
+    "img": "https://i.ibb.co/pbtzfRf/hammer.jpg"
+  },
+  {
+    "id": 4,
+    "name": "HAMMER",
+    "price": 235,
+    "min_quantity": 289,
+    "available_quantity": 1009,
+    "desc": "This is my second mat and to be honest, I don’t really need a new one",
+    "img": "https://i.ibb.co/pbtzfRf/hammer.jpg"
+  },
+  {
+    "id": 5,
+    "name": "HAMMER",
+    "price": 235,
+    "min_quantity": 289,
+    "available_quantity": 1009,
+    "desc": "This is my second mat and to be honest, I don’t really need a new one",
+    "img": "https://i.ibb.co/pbtzfRf/hammer.jpg"
+  },
+  {
+    "id": 6,
+    "name": "HAMMER",
+    "price": 235,
+    "min_quantity": 289,
+    "available_quantity": 1009,
+    "desc": "This is my second mat and to be honest, I don’t really need a new one",
+    "img": "https://i.ibb.co/pbtzfRf/hammer.jpg"
+  },
+  {
+    "id": 7,
+    "name": "HAMMER",
+    "price": 235,
+    "min_quantity": 289,
+    "available_quantity": 1009,
+    "desc": "This is my second mat and to be honest, I don’t really need a new one",
+    "img": "https://i.ibb.co/pbtzfRf/hammer.jpg"
+  }
+]
