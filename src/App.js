@@ -4,7 +4,10 @@ import About from "./pages/about/About";
 import Blog from "./pages/blog/Blog";
 import Contact from "./pages/contact/Contact";
 import Home from "./pages/home/Home";
+import Login from "./pages/login/Login";
+import Signup from "./pages/login/Signup";
 import Navbar from "./pages/shared/Navbar";
+import Footer from "./pages/shared/Footer";
 function App() {
   return (
     <div>
@@ -15,7 +18,10 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
