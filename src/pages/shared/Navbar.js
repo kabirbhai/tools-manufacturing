@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <header>
-      <nav className="flex justify-between  py-4 shadow-md items-center ">
+      <nav className="flex sticky top-0 justify-between  py-4 shadow-md items-center ">
         <div className="flex items-end">
           <div className="logo mr-6 uppercase">
             <Link className="text-2xl" to="/">
@@ -30,8 +30,12 @@ const Navbar = () => {
           </div>
         </div>
         <div className="space-x-2">
-          <Button variant="contained">Login</Button>
-          <Button variant="outlined">signup</Button>
+          <Link to="/signup">
+            <Button variant="outlined">signup</Button>
+          </Link>
+          <Link to="/login">
+            <Button variant="contained">Login</Button>
+          </Link>
         </div>
       </nav>
     </header>

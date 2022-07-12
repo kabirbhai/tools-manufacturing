@@ -1,65 +1,74 @@
 [
   {
     "id": 1,
-    "name": "HAMMER",
-    "price": 235,
+    "name": "Tape",
+    "price": 535,
     "min_quantity": 289,
-    "available_quantity": 1009,
-    "desc": "This is my second mat and to be honest, I don’t really need a new one",
-    "img": "https://i.ibb.co/pbtzfRf/hammer.jpg"
+    "available_quantity": 3050,
+    "desc": "The tape is 3/4 inch wide and can be found in many colors. It can be used for both indoor and outdoor projects. The tape is versatile and can be used for a variety of projects. It can be used to seal packages, fix small tears, attach photos to a project, and more. The tape is very durable and has a very strong adhesive.",
+    "img": "https://i.ibb.co/Vqwd4Xg/tape-158276-1280.jpg"
   },
   {
     "id": 2,
-    "name": "HAMMER",
-    "price": 235,
-    "min_quantity": 289,
-    "available_quantity": 1009,
-    "desc": "This is my second mat and to be honest, I don’t really need a new one",
-    "img": "https://i.ibb.co/pbtzfRf/hammer.jpg"
+    "name": "Rance",
+    "price": 335,
+    "min_quantity": 189,
+    "available_quantity": 500,
+    "desc": "Rance is a rich, spicy, and robust wine with a bold, rich, and concentrated fruitiness. Rance is made from a blend of Syrah, Grenache, and Mourvedre. It is an excellent wine for pairing with rich foods like red meat and stews.",
+    "img": "https://i.ibb.co/SvtVPnR/spanner-33816-1280.jpg"
   },
   {
     "id": 3,
-    "name": "HAMMER",
-    "price": 235,
-    "min_quantity": 289,
-    "available_quantity": 1009,
-    "desc": "This is my second mat and to be honest, I don’t really need a new one",
-    "img": "https://i.ibb.co/pbtzfRf/hammer.jpg"
+    "name": "Screwdriver",
+    "price": 635,
+    "min_quantity": 50,
+    "available_quantity": 700,
+    "desc": "The perfect screwdriver for the do-it-yourselfer. Included in this set are three screwdrivers, including a Phillips head, a flat head, and a torx head. The screwdrivers come in a durable plastic case that keeps them all organized and easy to find. The handles are ergonomically designed for comfort and the blades are made of durable steel for easy and long-lasting use.",
+    "img": "https://i.ibb.co/hKKmVTR/screwdriver-33634-1280.jpg"
   },
   {
     "id": 4,
-    "name": "HAMMER",
-    "price": 235,
-    "min_quantity": 289,
-    "available_quantity": 1009,
-    "desc": "This is my second mat and to be honest, I don’t really need a new one",
-    "img": "https://i.ibb.co/pbtzfRf/hammer.jpg"
+    "name": "Saw-blade",
+    "price": 700,
+    "min_quantity": 300,
+    "available_quantity": 802,
+    "desc": "For those of you who are unfamiliar with what a saw-blade is, it is a sharpened metal disc with teeth, used to cut through wood, metal, and other materials. The teeth on the blade can be of different shapes and sizes depending on the type of material being cut. Saw-blades are typically manufactured in sets of ten or more, with each blade having a different shape. The blade is mounted on a rotating shaft and is powered by a motor. A saw-blade is a common tool in carpentry and construction. If you're in need of a saw-blade, then this one is for you. It's a 5 diameter blade with 24 teeth per inch. The teeth are angled to help make the saw-blade easier to push through the material being cut. It's compatible with many types of saws, so if you're not sure which blade to buy, this one will work with most saws.",
+    "img": "https://i.ibb.co/J7BBt6x/saw-blade-1801186-1920.jpg"
   },
   {
     "id": 5,
-    "name": "HAMMER",
-    "price": 235,
-    "min_quantity": 289,
-    "available_quantity": 1009,
-    "desc": "This is my second mat and to be honest, I don’t really need a new one",
-    "img": "https://i.ibb.co/pbtzfRf/hammer.jpg"
+    "name": "Pipe rance",
+    "price": 1235,
+    "min_quantity": 80,
+    "available_quantity": 2005,
+    "desc": "The Pipedance is a pipe for smoking tobacco that is designed to reduce the risk of choking. It is a simple design that is designed to allow for the smoker to hold it in their mouth with the tobacco in their mouth and the smoke goes out through the pipe. It is small and portable, making it easy to take anywhere. The body of the pipe is a small, flat disk that can be held between the lips. The bowl of the pipe is at the center of the disk and it has a hole in the center. The hole is positioned over the mouth of the person using the pipe. When the person draws on the pipe, the tobacco goes into their mouth and the smoke comes out of the hole in the center of the bowl. The tobacco smoke travels down the stem of the pipe and then out through a hole in the bottom of the stem.",
+    "img": "https://i.ibb.co/cts9F2k/Pipe-rance.jpg"
   },
   {
     "id": 6,
-    "name": "HAMMER",
+    "name": "Knives",
     "price": 235,
-    "min_quantity": 289,
-    "available_quantity": 1009,
-    "desc": "This is my second mat and to be honest, I don’t really need a new one",
-    "img": "https://i.ibb.co/pbtzfRf/hammer.jpg"
+    "min_quantity": 100,
+    "available_quantity": 500,
+    "desc": "Dull knives can make cooking a chore. Thankfully, the kitchen is one of the most versatile places to find new knives. There are many different styles and types of knives available for purchase. Some knives are for specific purposes, like carving and chopping, while others are for general use. The knives come in different shapes and sizes, but they all share the same purpose: to make cooking easier.",
+    "img": "https://i.ibb.co/cD2zPsv/knives-1839061-1920.jpg"
   },
   {
     "id": 7,
-    "name": "HAMMER",
+    "name": "Hammer",
     "price": 235,
     "min_quantity": 289,
     "available_quantity": 1009,
-    "desc": "This is my second mat and to be honest, I don’t really need a new one",
+    "desc": "A hammer is a hand tool with a heavy metal head and a handle. It is used to drive nails into wood, to strike chisels, and to drive other tools. The head of a hammer is often topped with a rubber or plastic pad that is either glued or screwed on to protect the user's hands from the head of the hammer.",
     "img": "https://i.ibb.co/pbtzfRf/hammer.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Axe",
+    "price": 400,
+    "min_quantity": 189,
+    "available_quantity": 1000,
+    "desc": "If you need to do some chopping and clearing, this axe is perfect for you. It's a perfect balance of heft and control, and it's forged from steel. The edge is razor sharp and it can cut through the toughest wood. If you're looking for a tool that will last a lifetime, this is it.",
+    "img": "https://i.ibb.co/Yk06p1G/axe-47042-1280.jpg"
   }
 ]

@@ -1,8 +1,14 @@
 import { Button } from "@mui/material";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Product = ({ product }) => {
   const { id, price, img, name, available_quantity, min_quantity } = product;
+  const navigate = useNavigate();
+
+  const handlePurchase = (id) => {
+    navigate(`/productDetails/${id}`);
+  };
   return (
     <section>
       <div>
@@ -17,7 +23,10 @@ const Product = ({ product }) => {
             <p class="text-sm">id: {id}</p>
             <p class="text-sm">Price:{price}</p>
             <div className="my-2">
-              <Button variant="outlined"> PURCHASE</Button>
+              <Button onClick={() => handlePurchase(id)} variant="outlined">
+                {" "}
+                PURCHASE
+              </Button>
             </div>
           </div>
         </div>
