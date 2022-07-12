@@ -9,24 +9,33 @@ import {
 import { Link } from "react-router-dom";
 import auth from "../../filrebase.init";
 
+let errorMessage;
 const Signup = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
   const [createUserWithEmailAndPassword, user, loading, error] =
     useCreateUserWithEmailAndPassword(auth);
-  const [signInWithGoogle, gUser, gLoading, gEerror] =
-    useSignInWithGoogle(auth);
+  const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
   const [signInWithGithub, gitUser, gitLoading, gitError] =
     useSignInWithGithub(auth);
   const [updateProfile, updating] = useUpdateProfile(auth);
 
   if (user || gUser || gitUser) {
-    console.log(gUser, gitUser);
+    console.log(gUser || gitUser || user);
   }
   if (loading || gLoading || gitLoading || updating) {
     return <p>loading</p>;
   }
+  if (error || gError || gitError) {
+    errorMessage = (
+      <p className="text-red-500">
+        {error?.massage || gError?.massage || gitError?.message}
+      </p>
+    );
+  }
+
   const handleSignup = async (e) => {
     e.preventDefault();
     await createUserWithEmailAndPassword(email, password);
@@ -88,12 +97,12 @@ const Signup = () => {
               </div>
 
               <div className="text-center lg:text-left">
-                <button
-                  type="button"
+                <input
+                  type="submit"
+                  value="Signup"
                   className="inline-block px-7 py-3 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-                >
-                  Sign up
-                </button>
+                ></input>
+                {errorMessage}
                 <p className="text-sm font-semibold mt-2 pt-1 mb-0">
                   Already have an account?
                   <Link

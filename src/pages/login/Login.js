@@ -6,9 +6,9 @@ import {
 import { Link } from "react-router-dom";
 import auth from "../../filrebase.init";
 
+let errorMessage;
 const Login = () => {
-  const [signInWithGoogle, gUser, gLoading, gEerror] =
-    useSignInWithGoogle(auth);
+  const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
   const [signInWithGithub, gitUser, gitLoading, gitError] =
     useSignInWithGithub(auth);
 
@@ -17,6 +17,11 @@ const Login = () => {
   }
   if (gLoading || gitLoading) {
     return <p>loading</p>;
+  }
+  if (gError || gitError) {
+    errorMessage = (
+      <p className="text-red-500">{gError?.massage || gitError?.message}</p>
+    );
   }
 
   const handleLogin = async (e) => {
@@ -73,6 +78,7 @@ const Login = () => {
               >
                 Sign in
               </button>
+              {errorMessage}
               <p className="text-sm font-semibold mt-2 pt-1 mb-0">
                 Don't have an account?
                 <Link
