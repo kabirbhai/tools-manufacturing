@@ -9,6 +9,7 @@ import Signup from "./pages/login/Signup";
 import Navbar from "./pages/shared/Navbar";
 import Footer from "./pages/shared/Footer";
 import ProductDetails from "./pages/tools/ProductDetails";
+
 function App() {
   return (
     <div>
@@ -19,7 +20,10 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/productDetails/:productId" element={<ProductDetails />} />
+        <Route
+          path="/productDetails/:productId"
+          element={<ProductDetails />}
+        ></Route>
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
       </Routes>

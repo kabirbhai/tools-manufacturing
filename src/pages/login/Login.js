@@ -40,6 +40,9 @@ const Login = () => {
             />
           </div>
           <div className="md:w-8/12 lg:w-5/12 lg:ml-20">
+            <h1 className="text-center text-2xl text-blue-500 font-bold py-4 uppercase ">
+              Please Login
+            </h1>
             <form onSubmit={handleLogin}>
               <div className="mb-6">
                 <label htmlFor="loginEmail">Email</label>

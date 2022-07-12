@@ -1,9 +1,15 @@
 import React from "react";
-import useProducts from "../../hooks/useProducts";
+import { useQuery } from "react-query";
 import Product from "./Product";
 
 const Products = () => {
-  const [products] = useProducts();
+  const { data: products, isLoading } = useQuery("products", () =>
+    fetch("http://localhost:5000/api/products").then((res) => res.json())
+  );
+
+  if (isLoading) {
+    return <p>loading...</p>;
+  }
   return (
     <section>
       <div>
@@ -13,7 +19,7 @@ const Products = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {products.map((p) => (
-          <Product key={p.id} product={p} />
+          <Product key={p._id} product={p} />
         ))}
       </div>
     </section>

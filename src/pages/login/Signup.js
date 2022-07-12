@@ -56,6 +56,9 @@ const Signup = () => {
             />
           </div>
           <div className="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
+            <h1 className="text-center text-2xl text-blue-500 font-bold py-4 uppercase ">
+              Please Login
+            </h1>
             <form onSubmit={handleSignup}>
               <div className="mb-6">
                 <label htmlFor="Name">Name</label>
