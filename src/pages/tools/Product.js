@@ -12,16 +12,16 @@ const Product = ({ product }) => {
   return (
     <section>
       <div>
-        <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-          <div class="flex items-center mb-3">
+        <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+          <div className="flex items-center mb-3">
             <img src={img} alt="" />
           </div>
-          <div class="flex-grow">
-            <p class="text-xl text-orange-600 font-bold">{name}</p>
-            <p class="text-sm">Available qty: {available_quantity}</p>
-            <p class="text-sm">Min qty:{min_quantity}</p>
-            <p class="text-sm">id: {id}</p>
-            <p class="text-sm">Price:{price}</p>
+          <div className="flex-grow">
+            <p className="text-xl text-orange-600 font-bold">{name}</p>
+            <p className="text-sm">Available qty: {available_quantity}</p>
+            <p className="text-sm">Min qty:{min_quantity}</p>
+            <p className="text-sm">id: {id}</p>
+            <p className="text-sm">Price:{price}</p>
             <div className="my-2">
               <Button onClick={() => handlePurchase(id)} variant="outlined">
                 {" "}
